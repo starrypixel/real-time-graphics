@@ -2,41 +2,41 @@
 Audit the real-time graphics course taught at UPF .
 
 Content
-  Introduction
+Introduction
     - Recap of previous required knowledge
-  The GPU
+The GPU
     - Understanding the basics of how a GPU works, and what can it do.
-  The Framework
+The Framework
     - A walkthrough over the C++/OpenGL codebase used along the course.
-  Illumination
+Illumination
     - Basic of Phong equation, types of light (point, spot, directional) and attenuation.
-  Shadows
+Shadows
   - Shadow techniques, how to generate shadowmaps, optimizations.
-  First Assignment
+First Assignment
   - In the first assigment you must add illumination and shadows to the framework.
-  Render Pipelines
+Render Pipelines
   - Optimizing the rendering pipeline for more complex environments. Programming a deferred rendering pipeline.
-  Physicaly Based Materials
+Physicaly Based Materials
   - Understanding the PBR Model, coding the equation and how to improve materials.
-  HDR and Linear Space
+HDR and Linear Space
   - High-dynamic range images for better quality and using Linear Color Space to improve fidelity.
-  Ambient Occlusion
+Ambient Occlusion
   - Basic implementation of Amblient Occlusion to give better depth to scenes.
-  Second Assignment
+Second Assignment
   - Here we will optimize our render pipeline with Deferred Rendering and improve the visual quality with PBR and SSAO.
-  Irradiance
+Irradiance
   - Approaches for bounced light.
-  Reflections
+Reflections
   - Adding reflections to the scene, from precomputed to realtime.
-  Volumetric Rendering
+Volumetric Rendering
   - How to render volumetric elements like fog.
-  Decals
+Decals
   - Improving the scene with decals to give detail to surfaces.
-  Post-processing
+Post-processing
   - Understanding a post-processing stack to enhance the visual quality.
-  Beyond the course
+Beyond the course
   - Final recap and some guides of how to move forward after this course.
-  Final Assignment
+Final Assignment
   - Here we will add Reflections, Irradiance, Volumetric lights and PostFX.
-  WebGPU
+WebGPU
   - Presentation about WebGPU.
