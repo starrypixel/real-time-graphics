@@ -3,13 +3,13 @@ Audit the real-time graphics course taught at UPF .
 
 Content
   Introduction
-  - Recap of previous required knowledge
+    - Recap of previous required knowledge
   The GPU
-  - Understanding the basics of how a GPU works, and what can it do.
+    - Understanding the basics of how a GPU works, and what can it do.
   The Framework
-  - A walkthrough over the C++/OpenGL codebase used along the course.
+    - A walkthrough over the C++/OpenGL codebase used along the course.
   Illumination
-  - Basic of Phong equation, types of light (point, spot, directional) and attenuation.
+    - Basic of Phong equation, types of light (point, spot, directional) and attenuation.
   Shadows
   - Shadow techniques, how to generate shadowmaps, optimizations.
   First Assignment
