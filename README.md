@@ -3,20 +3,12 @@ Notes and code by auditing the real-time graphics course taught at UPF.
 
 [Real-time Graphics - A course about modern real-time render engines](https://tamats.com/learn/realtime-graphics/)
  
-### Description ###
-In this course we would learn the basic of how modern realtime render engine's work.
-Students start with a very basic render engine and build uppon it all the current techniques to improve the visual quality maintaining a good framerate.
-
-### Requirements ###
-Students must have prior knowledge to C/C++ programming, OpenGL and basic Computer Graphics algorithms (like 3D transformations, linear algebra, framebuffer, etc).
-The Computer Graphics Course material can be found also in this website.
-
-### Materials ### 
-All the code can be found in its [github repository](https://github.com/jagenjo/GTR_Framework).
-The framework can be compiled in Visual Studio, GCC or XCode.
-We use Blender as our main tool to export content to our engine.
-Website to get assets: [Sketchfab](https://sketchfab.com) and [Polyhaven](https://polyhaven.com).
-There are recordings of the coding part of every class. You can find the video in the [Youtube Playlist](https://www.youtube.com/playlist?list=PLpH3ZN1TMo28AivxHZRMeFLO6XY37k60H)
+### Tools ### 
+[GitHub repository](https://github.com/jagenjo/GTR_Framework).
+- Visual Studio, GCC or XCode.
+- Blender
+- Assets: [Sketchfab](https://sketchfab.com) and [Polyhaven](https://polyhaven.com).
+- Class recordings [Youtube Playlist](https://www.youtube.com/playlist?list=PLpH3ZN1TMo28AivxHZRMeFLO6XY37k60H)
 
 ### Content ###
 
