@@ -1,18 +1,18 @@
 A MacOS-based renderer using Metal. 
 
-# References
-Real-time graphics course taught at UPF.
 
+# References
+```
  [Real-time Graphics - A course about modern real-time render engines](https://tamats.com/learn/realtime-graphics/)
  
- ### Tools ### 
+ #### Tools used by GTR #### 
  [GitHub repository](https://github.com/jagenjo/GTR_Framework).
  - Visual Studio, GCC or XCode.
  - Blender
  - Assets: [Sketchfab](https://sketchfab.com) and [Polyhaven](https://polyhaven.com).
  - Class recordings [Youtube Playlist](https://www.youtube.com/playlist?list=PLpH3ZN1TMo28AivxHZRMeFLO6XY37k60H)
 
- ### Content ###
+ #### Content ####
  
      1. Introduction
          - Recap of previous required knowledge    
@@ -52,3 +52,4 @@ Real-time graphics course taught at UPF.
          - Here we will add Reflections, Irradiance, Volumetric lights and PostFX.     
      19. WebGPU
          - Presentation about WebGPU.
+```
