@@ -1,7 +1,9 @@
 A MacOS-based renderer using Metal. 
+## Tools
+- XCode
+- Blender
 
-
-# References
+## References
 ```
  [Real-time Graphics - A course about modern real-time render engines](https://tamats.com/learn/realtime-graphics/)
  
