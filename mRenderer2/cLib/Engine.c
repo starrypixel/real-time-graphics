@@ -5,11 +5,17 @@ void initEngine(){
     VkInstance instance;
     VkInstanceCreateInfo createInfo = {};
 
-    VkResult result = vkCreateInstance(&createInfo, NULL, &instance);
+    const char* validationLayers[] = {
+        "VK_LAYER_KHRONOS_validation"
+    };
 
+    VkResult result = vkCreateInstance(&createInfo, NULL, &instance);
+    createInfo.enabledExtensionCount = 1;
+    createInfo.ppEnabledLayerNames = validationLayers;
     if (result == VK_SUCCESS) {
         printf("Vulkan Instance created successfully!\n");
     } else {
+        printf("Create info: %d \n", createInfo);
         printf("Failed to create Vulkan Instance: %d\n", result);
     }
 }

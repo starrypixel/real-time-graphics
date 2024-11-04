@@ -9,10 +9,10 @@ LIB_LINKERS:= -L/Users/thytran/VulkanSDK/1.3.296/macOS/lib -lvulkan
 LIB_C_FILES:= ./customLibrary/src/*.c
 
 APP_DEFINES:= 
-APP_INCLUDES:= -I./ClientApp/src -I./customLibrary/src
+APP_INCLUDES:= -I./cApp/src -I./cLib/src
 APP_LINKERS:= -L$(BUILD_DIR) -lengine
 
-APP_C_FILES = ./ClientApp/src/*.c
+APP_C_FILES = ./cApp/src/*.c
 
 all: buildLibrary buildClient run
 
